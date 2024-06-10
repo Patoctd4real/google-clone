@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-left: auto;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 30px;
+}
+
+.google-apps:hover {
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+main {
+    width: 50%;
+    margin: 5.2em auto;
+    text-align: center;
+}
+
+.google-img {
+    width: 40%;
+    margin-top: 30px;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 1px gray;
+}
+
+.btns_container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 0.8em;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.para {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+span a {
+    margin-right: 0.5em;
+}
+
+.para a {
+    text-decoration: none;
+    color: purple;
+}
+
+.para a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+.footer-top {
+    padding: 1em;
+}
+
+.footer-bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px lightgray;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.left a {
+    margin-right: 1em;
+}
+
+.right a {
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 15%;
+        margin-left: auto;
+    }
+    main {
+        width: 50%;
+        margin: 3.7em auto;
+        text-align: center;
+    }
+    footer {
+        width: 101%;
+        background-color: rgb(241, 241, 241);
+    }
+}
